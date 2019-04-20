@@ -21,11 +21,6 @@ def won?
     idx_2 = combo[1]
     idx_3 = combo[2]
 
-
-    if position_1 == position_2 && position_1 == position_3
-      return [idx_1, idx_2, idx_3]
-    else
-      return false
-    end
+return combo
   end
 end
