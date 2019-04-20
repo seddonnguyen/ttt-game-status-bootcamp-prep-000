@@ -45,5 +45,5 @@ def winner(board)
   if arr
     return board[arr[0]]
   end
-  nil 
+  nil
 end
