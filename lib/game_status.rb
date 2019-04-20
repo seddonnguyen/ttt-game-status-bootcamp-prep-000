@@ -25,7 +25,7 @@ def won?(board)
     position_2 = board[idx_2]
     position_3 = board[idx_3]
 
-    if position_1 == position_2 && position_1 == position_3
+    if position_1 == position_2 && position_1 == position_3 && position_2 == position_3
       return combo
     else
       return false
