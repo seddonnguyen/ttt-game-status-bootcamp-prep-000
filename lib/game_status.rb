@@ -32,6 +32,6 @@ def full?(board)
   return !board.any? {|pos| pos == " "}
 end
 
-def draw(board)
+def draw?(board)
   return full?(board) && !won?(board)
 end
