@@ -29,7 +29,5 @@ def won?(board)
 end
 
 def full?(board)
-  return !board.any? do |pos|
-    pos == " "
-  end
+  return !board.any? { do |pos| pos == " " }
 end
