@@ -21,6 +21,6 @@ def won?
     idx_2 = combo[1]
     idx_3 = combo[2]
 
-return combo
+    return combo
   end
 end
