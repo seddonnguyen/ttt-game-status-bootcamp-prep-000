@@ -15,20 +15,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board)
+def won?
   WIN_COMBINATIONS.each do |combo|
-    idx_1 = combo[0]
-    idx_2 = combo[1]
-    idx_3 = combo[2]
-
-    position_1 = board[idx_1]
-    position_2 = board[idx_2]
-    position_3 = board[idx_3]
-
-    if position_1 == position_2 && position_1 == position_3
-      return combo
-    else
-      return false
-    end
+    puts combo
   end
 end
