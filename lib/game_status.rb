@@ -43,5 +43,4 @@ end
 def winner?(board)
   arr = won?(board)
   return board[arr[0]] 
-  end
 end
