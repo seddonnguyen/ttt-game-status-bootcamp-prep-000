@@ -17,6 +17,15 @@ WIN_COMBINATIONS = [
 
 def won?
   WIN_COMBINATIONS.each do |combo|
-    puts combo
+    idx_1 = combo[0]
+    idx_2 = combo[1]
+    idx_3 = combo[2]
+
+    
+    if position_1 == position_2 && position_1 == position_3
+      return [idx_1, idx_2, idx_3]
+    else
+      return false
+    end
   end
 end
