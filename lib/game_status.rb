@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?
+def won?(board)
   WIN_COMBINATIONS.each do |combo|
     idx_1 = combo[0]
     idx_2 = combo[1]
