@@ -40,7 +40,7 @@ def over?(board)
   return full?(board) || draw?(board) || won?(board)
 end
 
-def winner?(board)
+def winner(board)
   arr = won?(board)
   if arr
     return board[arr[0]]
