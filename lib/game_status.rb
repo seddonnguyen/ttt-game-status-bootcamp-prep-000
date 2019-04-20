@@ -31,3 +31,6 @@ end
 def full?(board)
   return !board.any? {|pos| pos == " "}
 end
+
+def draw(board)
+end
