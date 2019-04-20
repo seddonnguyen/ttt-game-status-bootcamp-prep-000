@@ -28,7 +28,7 @@ def won?(board)
     if pos_1 == pos_2 && pos_1 == pos_3 && pos_1 != " "
       return combo
     else
-      return false
+      false
     end
   end
 end
