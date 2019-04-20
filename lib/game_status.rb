@@ -35,3 +35,7 @@ end
 def draw?(board)
   return full?(board) && !won?(board)
 end
+
+def over?(board)
+  return full?(board) || draw?(board) || won?(board).kinda_of?(Array)
+end
